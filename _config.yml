@@ -1,9 +1,0 @@
-#yaml
-
-title: Eriadachi
-theme: jekyll-theme-cayman
-
-# Jekyllの投稿機能を有効にする
-plugins:
-  - jekyll-feed
-

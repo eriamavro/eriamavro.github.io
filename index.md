@@ -4,5 +4,7 @@ title: ようこそ
 ---
 
 こんにちは、足立英里のサイトです！
-こちらはWordPressから引っ越してきました。
-under construction
+
+## 投稿一覧
+
+- [Welcome！](2023/01/01/sample.html)

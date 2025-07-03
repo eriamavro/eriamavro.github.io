@@ -1,0 +1,5 @@
+title: Eriadachi
+theme: jekyll-theme-cayman
+
+plugins:
+  - jekyll-feed

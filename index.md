@@ -1,8 +1,10 @@
 ---
-layout: default
-title: ようこそ
+title: Welcome
 ---
 
-# ようこそ！
+# Welcome
 
-これは Eri の新しい GitHub Pages サイトです 🎉
+[Breakdown](/pages/breakdown-2/)  
+[Demo Reel](/pages/demoreel/)  
+[Filmography](/pages/filmography/)  
+[Press](/pages/press/)

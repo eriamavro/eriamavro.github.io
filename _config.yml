@@ -1,5 +1,4 @@
-title: Eri Adachi
-theme: jekyll-theme-cayman
-
-plugins:
-  - jekyll-feed
+title: Eri's Site
+description: 移行テスト中
+theme: minima
+markdown: kramdown  # ← これが無いとMarkdownがHTMLに変換されないことがあります

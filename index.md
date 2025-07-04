@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Welcome
+title: ようこそ
 ---
 
 # ようこそ！
 
-これはGitHub Pagesのトップページです。
+これは Eri の新しい GitHub Pages サイトです 🎉

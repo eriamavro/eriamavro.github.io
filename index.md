@@ -1,10 +1,8 @@
 ---
-layout: home
-title: ようこそ
+layout: default
+title: Welcome
 ---
 
-こんにちは、足立英里のサイトです！
+# ようこそ！
 
-## 投稿一覧
-
-- [Welcome！](2023/01/01/sample.html)
+これはGitHub Pagesのトップページです。

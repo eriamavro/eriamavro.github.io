@@ -15,7 +15,9 @@ Over the years, I’ve contributed to a wide range of projects, adapting to evol
 Currently, I’m working on immersive installations, digital experiences, and large-scale visual environments — expanding my expertise beyond traditional film and TV into experiential media.
 
 📧 Contact: **eribeeb@gmail.com**  
-🔗 [![LinkedIn](https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg)](https://www.linkedin.com/in/eriadachi)
+🔗 <a href="https://www.linkedin.com/in/eriadachi" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="30" style="vertical-align: middle;">
+</a>
 
 
 ---

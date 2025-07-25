@@ -1,7 +1,6 @@
----
-title: "PRESS"
-date: 2015-01-06
----
+<p style="text-align:center;">
+  <a href="/">← Back to Home</a>
+</p>
 
 [![Screen Shot 2015-01-06 at 10.59.22](images/screen-shot-2015-01-06-at-10-59-22.png)](https://eriadachi.com/wp-content/uploads/2015/01/screen-shot-2015-01-06-at-10-59-22.png)
 

@@ -3,10 +3,7 @@
 </p>
 
 
----
-title: "FILMOGRAPHY"
-date: 2025-07-25
----
+
 
 <!-- Filmography コラージュ画像 -->
 <img src="./images/filmography_tmp.png" alt="Filmography Collage" width="700">

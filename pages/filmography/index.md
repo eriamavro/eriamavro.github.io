@@ -1,6 +1,14 @@
 ---
 title: "FILMOGRAPHY"
-date: 2011-07-21
+date: 2025-07-25
 ---
 
-[![filmography](images/filmography1.jpg)](http://eriadachi.com/wp-content/uploads/2011/07/filmography1.jpg)[![](images/imdb-iphone-main1.jpg)](http://www.imdb.com/name/nm2503091/)
+<!-- Filmography コラージュ画像 -->
+<img src="./images/filmography_tmp.png" alt="Filmography Collage" width="700">
+
+<!-- IMDb ロゴ（リンク付き） -->
+<p>
+  <a href="https://www.imdb.com/name/nm2503091/" target="_blank">
+    <img src="./images/imdb-iphone-main1.jpg" alt="IMDb Profile" width="100">
+  </a>
+</p>

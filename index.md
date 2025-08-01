@@ -12,6 +12,8 @@ I am a Senior Compositor with over 19 years of experience in the visual effects 
 
 Over the years, I’ve contributed to a wide range of projects, adapting to evolving workflows, tools, and creative challenges. I’m passionate about storytelling through visuals and bring consistency, technical insight, and a collaborative spirit to every production I join.
 
+I am also a Full Member of BAFTA (British Academy of Film and Television Arts), reflecting my long-standing dedication to the craft of visual storytelling.
+
 Currently, I’m working on immersive installations, digital experiences, and large-scale visual environments — expanding my expertise beyond traditional film and TV into experiential media.
 
 📧 Contact: **eribeeb@gmail.com**  

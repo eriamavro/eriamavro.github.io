@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Press — Eri Adachi</title>
+  <meta name="description" content="Press and media features — Eri Adachi, Senior VFX Compositor.">
+  <link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="site-nav" id="nav">
+    <a href="/" class="nav-logo">Eri Adachi</a>
+    <ul class="nav-menu">
+      <li><a href="/#about">About</a></li>
+      <li><a href="/pages/demoreel/">Demo Reel</a></li>
+      <li><a href="/pages/filmography/">Filmography</a></li>
+      <li><a href="/pages/bafta/">BAFTA</a></li>
+      <li><a href="/pages/graphic-design/">Additional Work</a></li>
+      <li><a href="/pages/press/">Press</a></li>
+      <li><a href="/pages/breakdown-2/">Breakdown</a></li>
+    </ul>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <header class="page-hero">
+    <div class="wrap">
+      <a href="/" class="back-btn">
+        <svg width="16" height="12" viewBox="0 0 16 12" fill="none">
+          <path d="M6 1L1 6L6 11M1 6H15" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Back to Home
+      </a>
+      <p class="page-num reveal">03 / 06</p>
+      <h1 class="page-title reveal" data-d="1">Press</h1>
+    </div>
+  </header>
+
+  <!-- CONTENT -->
+  <main class="page-content">
+    <div class="wrap">
+      <p class="section-tag reveal">Features &amp; Coverage</p>
+
+      <div class="press-list">
+
+        <!-- The Guardian -->
+        <div class="press-entry reveal">
+          <div>
+            <img
+              src="images/screen-shot-2015-01-06-at-10-59-22.png"
+              alt="The Guardian — Women in Film"
+              class="press-thumb"
+            >
+          </div>
+          <div class="press-meta">
+            <p class="press-pub-tag">February 2014</p>
+            <h2 class="press-pub-name">The Guardian</h2>
+            <p class="press-pub-desc">
+              Featured in The Guardian's Women in Leadership section — "Women in Film."
+              A profile on Eri Adachi as a compositor navigating the visual effects
+              industry and advocating for greater representation in the field.
+            </p>
+            <a
+              href="http://www.theguardian.com/women-in-leadership/2014/feb/28/eri-adachi-compositor"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="press-link"
+            >
+              Read Article &nbsp;→
+            </a>
+          </div>
+        </div>
+
+        <!-- CGWORLD -->
+        <div class="press-entry reveal" data-d="1">
+          <div>
+            <img
+              src="images/screen-shot-2015-01-06-at-10-58-00.png"
+              alt="CGWORLD Magazine"
+              class="press-thumb"
+            >
+          </div>
+          <div class="press-meta">
+            <p class="press-pub-tag">October 2013 &nbsp;·&nbsp; Vol. 182</p>
+            <h2 class="press-pub-name">CGWORLD Magazine</h2>
+            <p class="press-pub-desc">
+              Featured in CGWORLD, Japan's leading CG and VFX magazine, as part of
+              the "Japanese Artists Working Overseas" series — profiling Eri Adachi's
+              career path, craft, and experience in the international VFX industry.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <span class="footer-copy">&copy; 2024 Eri Adachi</span>
+    <span class="footer-right">Senior Compositor &nbsp;·&nbsp; VFX Artist</span>
+  </footer>
+
+  <script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('is-scrolled', window.scrollY > 40);
+    }, { passive: true });
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('in-view'); observer.unobserve(e.target); }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>

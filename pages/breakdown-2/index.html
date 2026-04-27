@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Breakdown — Eri Adachi</title>
+  <meta name="description" content="VFX Breakdown — Eri Adachi, Senior VFX Compositor.">
+  <link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="site-nav" id="nav">
+    <a href="/" class="nav-logo">Eri Adachi</a>
+    <ul class="nav-menu">
+      <li><a href="/#about">About</a></li>
+      <li><a href="/pages/demoreel/">Demo Reel</a></li>
+      <li><a href="/pages/filmography/">Filmography</a></li>
+      <li><a href="/pages/bafta/">BAFTA</a></li>
+      <li><a href="/pages/graphic-design/">Additional Work</a></li>
+      <li><a href="/pages/press/">Press</a></li>
+      <li><a href="/pages/breakdown-2/">Breakdown</a></li>
+    </ul>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <header class="page-hero">
+    <div class="wrap">
+      <a href="/" class="back-btn">
+        <svg width="16" height="12" viewBox="0 0 16 12" fill="none">
+          <path d="M6 1L1 6L6 11M1 6H15" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Back to Home
+      </a>
+      <p class="page-num reveal">04 / 06</p>
+      <h1 class="page-title reveal" data-d="1">Breakdown</h1>
+    </div>
+  </header>
+
+  <!-- CONTENT -->
+  <main class="page-content">
+    <div class="wrap">
+      <div class="breakdown-box reveal">
+        <p class="section-tag centered">Compositing Breakdown</p>
+        <h2 class="section-heading">Get in Touch</h2>
+        <p>
+          Shot breakdowns are available upon request for qualified productions
+          and industry professionals. Please reach out directly for access.
+        </p>
+        <a href="mailto:eribeeb@gmail.com" class="contact-email">
+          eribeeb@gmail.com
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <span class="footer-copy">&copy; 2024 Eri Adachi</span>
+    <span class="footer-right">Senior Compositor &nbsp;·&nbsp; VFX Artist</span>
+  </footer>
+
+  <script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('is-scrolled', window.scrollY > 40);
+    }, { passive: true });
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('in-view'); observer.unobserve(e.target); }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>

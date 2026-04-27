@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Additional Work — Eri Adachi</title>
+  <meta name="description" content="Additional Work — Eri Adachi, Senior VFX Compositor.">
+  <link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="site-nav" id="nav">
+    <a href="/" class="nav-logo">Eri Adachi</a>
+    <ul class="nav-menu">
+      <li><a href="/#about">About</a></li>
+      <li><a href="/pages/demoreel/">Demo Reel</a></li>
+      <li><a href="/pages/filmography/">Filmography</a></li>
+      <li><a href="/pages/bafta/">BAFTA</a></li>
+      <li><a href="/pages/graphic-design/">Additional Work</a></li>
+      <li><a href="/pages/press/">Press</a></li>
+      <li><a href="/pages/breakdown-2/">Breakdown</a></li>
+    </ul>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <header class="page-hero">
+    <div class="wrap">
+      <a href="/" class="back-btn">
+        <svg width="16" height="12" viewBox="0 0 16 12" fill="none">
+          <path d="M6 1L1 6L6 11M1 6H15" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Back to Home
+      </a>
+      <p class="page-num reveal">06 / 06</p>
+      <h1 class="page-title reveal" data-d="1">Additional<br>Work</h1>
+    </div>
+  </header>
+
+  <!-- CONTENT -->
+  <main class="page-content">
+    <div class="wrap">
+
+      <p class="section-tag reveal">Selected Works</p>
+      <p class="design-intro reveal" data-d="1">
+        Alongside a career in visual effects, Eri Adachi brings a strong graphic
+        sensibility to print and editorial design — with a focus on <strong>typography,
+        composition, and visual narrative</strong>.
+      </p>
+
+      <!-- Project: The Japanese School in London -->
+      <div class="reveal" data-d="2">
+        <p class="gallery-project-tag">The Japanese School in London &nbsp;·&nbsp; 2025</p>
+        <h2 class="gallery-project-title">Yearbook &amp; Leavers Design</h2>
+      </div>
+
+      <div class="work-gallery reveal" data-d="3">
+        <div class="gallery-item">
+          <div class="gallery-img-wrap">
+            <img src="../../卒業アルバム表紙.png" alt="Yearbook cover design">
+          </div>
+          <p class="gallery-caption">Yearbook cover design</p>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-img-wrap">
+            <img src="../../Apronアルバム委員.png" alt="Committee apron — product">
+          </div>
+          <p class="gallery-caption">Committee merchandise — apron</p>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-img-wrap">
+            <img src="../../帆前掛け.png" alt="Committee apron — worn">
+          </div>
+          <p class="gallery-caption">Committee merchandise — worn</p>
+        </div>
+      </div>
+
+      <!-- Contact -->
+      <div class="design-more reveal" data-d="4">
+        <p class="design-more-lead">
+          Additional work is available upon request.
+          Please get in touch to discuss commissions or collaborations.
+        </p>
+        <a href="mailto:eribeeb@gmail.com" class="contact-email">
+          eribeeb@gmail.com
+        </a>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <span class="footer-copy">&copy; 2024 Eri Adachi</span>
+    <span class="footer-right">Senior Compositor &nbsp;·&nbsp; VFX Artist</span>
+  </footer>
+
+  <script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('is-scrolled', window.scrollY > 40);
+    }, { passive: true });
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('in-view'); observer.unobserve(e.target); }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>

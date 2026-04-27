@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BAFTA — Eri Adachi</title>
+  <meta name="description" content="BAFTA Full Member and Television Craft Awards judge — Eri Adachi, Senior VFX Compositor.">
+  <link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="site-nav" id="nav">
+    <a href="/" class="nav-logo">Eri Adachi</a>
+    <ul class="nav-menu">
+      <li><a href="/#about">About</a></li>
+      <li><a href="/pages/demoreel/">Demo Reel</a></li>
+      <li><a href="/pages/filmography/">Filmography</a></li>
+      <li><a href="/pages/bafta/">BAFTA</a></li>
+      <li><a href="/pages/graphic-design/">Additional Work</a></li>
+      <li><a href="/pages/press/">Press</a></li>
+      <li><a href="/pages/breakdown-2/">Breakdown</a></li>
+    </ul>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <header class="page-hero">
+    <div class="wrap">
+      <a href="/" class="back-btn">
+        <svg width="16" height="12" viewBox="0 0 16 12" fill="none">
+          <path d="M6 1L1 6L6 11M1 6H15" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Back to Home
+      </a>
+      <p class="page-num reveal">05 / 06</p>
+      <h1 class="page-title reveal" data-d="1">BAFTA</h1>
+    </div>
+  </header>
+
+  <!-- CONTENT -->
+  <main class="page-content">
+    <div class="wrap">
+
+      <!-- Judging Role Feature -->
+      <p class="section-tag reveal">Awards &amp; Industry</p>
+
+      <div class="bafta-feature reveal" data-d="1">
+        <span class="bafta-feature-year" aria-hidden="true">2024</span>
+        <p class="bafta-event-tag">BAFTA Television Craft Awards &nbsp;·&nbsp; 2024</p>
+        <h2 class="bafta-role-title">Awards Judge</h2>
+        <p class="bafta-category-name">Category &nbsp;/&nbsp; Titles &amp; Graphic Identity</p>
+        <p class="bafta-feature-desc">
+          Served as a judge for the <strong>BAFTA Television Craft Awards 2024</strong>
+          in the <strong>Titles &amp; Graphic Identity</strong> category — evaluating
+          outstanding creative work in motion design, title sequences, and graphic
+          identity across British television productions.
+          <br><br>
+          As a judge, responsibilities included reviewing submissions from leading studios
+          and independent creatives, assessing craft, innovation, and impact in title design
+          and on-screen graphic identity within the competitive landscape of contemporary
+          television.
+        </p>
+      </div>
+
+      <!-- Membership Section -->
+      <p class="section-tag reveal">Membership</p>
+      <div class="bafta-membership-intro reveal" data-d="1">
+        <p>
+          Eri Adachi is a <strong>Full Member of BAFTA</strong> — the British Academy
+          of Film and Television Arts — one of the world's most prestigious organisations
+          dedicated to supporting, developing, and promoting the art of film, television,
+          and games.
+        </p>
+        <p>
+          BAFTA Full Membership is open to practitioners with a significant body of
+          professional work in their field. As a Full Member, Eri actively participates
+          in the Academy's activities, including voting for BAFTA Awards and contributing
+          to industry initiatives that champion excellence and diversity in visual
+          storytelling.
+        </p>
+        <p>
+          This long-standing commitment to the Academy reflects a dedication not only
+          to the craft of compositing, but to the broader creative community that shapes
+          the future of film and television.
+        </p>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <span class="footer-copy">&copy; 2024 Eri Adachi</span>
+    <span class="footer-right">Senior Compositor &nbsp;·&nbsp; VFX Artist</span>
+  </footer>
+
+  <script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('is-scrolled', window.scrollY > 40);
+    }, { passive: true });
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('in-view'); observer.unobserve(e.target); }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>

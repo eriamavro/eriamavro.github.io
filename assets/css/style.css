@@ -515,15 +515,39 @@ a { color: inherit; }
 
 .social-row a {
   font-family: 'DM Sans', sans-serif;
-  font-size: 9px;
-  letter-spacing: 3px;
+  font-size: 11px;
+  letter-spacing: 2.5px;
   text-transform: uppercase;
   text-decoration: none;
-  color: var(--gray-dim);
+  color: var(--gray);
   transition: color 0.3s;
 }
 
 .social-row a:hover { color: var(--gold); }
+
+.about-social {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.about-social a {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--white);
+  border-bottom: 1px solid var(--border-mid);
+  padding-bottom: 2px;
+  transition: color 0.3s, border-color 0.3s;
+}
+
+.about-social a:hover {
+  color: var(--gold);
+  border-color: var(--gold);
+}
 
 /* ===== FOOTER ===== */
 .site-footer {

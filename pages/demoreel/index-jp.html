@@ -19,19 +19,12 @@
 
   <!-- PASSWORD GATE -->
   <div id="gate" style="position:fixed;inset:0;background:#0a0a12;z-index:9999;display:flex;align-items:center;justify-content:center;padding:24px;">
-    <div style="text-align:center;max-width:360px;width:100%;">
-      <p style="font-family:'Cormorant Garamond',serif;font-size:11px;letter-spacing:4px;text-transform:uppercase;color:#c9a84c;margin-bottom:24px;">Private</p>
-      <h2 style="font-family:'Cormorant Garamond',serif;font-size:36px;font-weight:300;color:#f0ede8;margin-bottom:12px;">デモリール</h2>
-      <p style="color:#888888;font-size:14px;font-family:'DM Sans',sans-serif;font-weight:300;margin-bottom:32px;">このページは非公開です。パスワードはEriに直接お問い合わせください。</p>
-      <div style="display:flex;border:1px solid #252525;border-radius:4px;overflow:hidden;">
-        <input type="password" id="pwInput" placeholder="パスワード" autocomplete="current-password"
-          style="flex:1;background:#111111;border:none;padding:14px 16px;color:#f0ede8;font-family:'DM Sans',sans-serif;font-size:14px;font-weight:300;outline:none;">
-        <button id="pwBtn" type="button"
-          style="background:#c9a84c;border:none;padding:14px 22px;color:#0a0a12;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:500;cursor:pointer;letter-spacing:1px;white-space:nowrap;">
-          入力
-        </button>
-      </div>
-      <p id="pwErr" style="color:#e05555;font-size:13px;font-family:'DM Sans',sans-serif;margin-top:14px;display:none;">パスワードが違います。もう一度お試しください。</p>
+    <div style="text-align:center;">
+      <p style="font-family:'Cormorant Garamond',serif;font-size:13px;letter-spacing:5px;text-transform:uppercase;color:#888888;margin-bottom:20px;">限定公開</p>
+      <button id="pwBtn" type="button"
+        style="background:transparent;border:1px solid #c9a84c;padding:14px 32px;color:#c9a84c;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:400;cursor:pointer;letter-spacing:2px;">
+        パスワードをリクエストする
+      </button>
     </div>
   </div>
 
@@ -114,28 +107,20 @@
   <script>
     (function() {
       const gate = document.getElementById('gate');
-      const pwInput = document.getElementById('pwInput');
       const pwBtn = document.getElementById('pwBtn');
-      const pwErr = document.getElementById('pwErr');
       const PASS = 'bTasI888';
       const KEY = 'dr_unlocked';
 
       if (sessionStorage.getItem(KEY) === '1') {
         gate.remove();
       } else {
-        pwInput.focus();
-        function attempt() {
-          if (pwInput.value === PASS) {
+        pwBtn.addEventListener('click', function() {
+          const input = window.prompt('パスワード:');
+          if (input === PASS) {
             sessionStorage.setItem(KEY, '1');
             gate.remove();
-          } else {
-            pwErr.style.display = 'block';
-            pwInput.value = '';
-            pwInput.focus();
           }
-        }
-        pwBtn.addEventListener('click', attempt);
-        pwInput.addEventListener('keydown', function(e) { if (e.key === 'Enter') attempt(); });
+        });
       }
     })();
 

@@ -527,9 +527,10 @@ a { color: inherit; }
 
 .social-icon-link { display: flex; align-items: center; }
 .social-icon-link img {
-  height: 20px;
+  height: 13px;
   width: auto;
-  filter: grayscale(1) brightness(0.6);
+  mix-blend-mode: screen;
+  filter: grayscale(1) brightness(0.75);
   transition: filter 0.3s;
 }
 .social-icon-link:hover img { filter: grayscale(0) brightness(1); }

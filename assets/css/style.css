@@ -527,7 +527,7 @@ a { color: inherit; }
 
 .social-icon-link { display: flex; align-items: center; }
 .social-icon-link img {
-  height: 32px;
+  height: 20px;
   width: auto;
   filter: grayscale(1) brightness(0.6);
   transition: filter 0.3s;
@@ -536,7 +536,8 @@ a { color: inherit; }
 
 .about-social {
   display: flex;
-  gap: 20px;
+  gap: 16px;
+  align-items: center;
   flex-wrap: wrap;
   margin-top: 4px;
 }

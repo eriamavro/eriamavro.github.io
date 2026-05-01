@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BAFTA — Eri Adachi</title>
+  <meta name="description" content="BAFTA 正会員・テレビクラフトアワード審査員 — Eri Adachi、シニア VFX コンポジター">
+  <link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="site-nav" id="nav">
+    <a href="/" class="nav-logo">Eri Adachi</a>
+    <ul class="nav-menu">
+      <li><a href="/index-jp.html#about">プロフィール</a></li>
+      <li><a href="/pages/demoreel/index-jp.html">デモリール</a></li>
+      <li><a href="/pages/bafta/index-jp.html">BAFTA</a></li>
+      <li><a href="/pages/education/index-jp.html">教育活動</a></li>
+      <li><a href="/pages/press/index-jp.html">プレス</a></li>
+    </ul>
+    <div class="lang-switch" id="langToggle" role="group" aria-label="Switch language"
+         data-en-url="/pages/bafta/" data-ja-url="/pages/bafta/index-jp.html">
+      <button class="lang-option lang-opt-en" data-lang="en" aria-label="English">
+        <img src="../../assets/flag-uk.png" alt="EN">
+      </button>
+      <button class="lang-option lang-opt-ja active" data-lang="ja" aria-label="日本語">
+        <img src="../../assets/flag-jp.png" alt="JP">
+      </button>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <header class="page-hero">
+    <div class="wrap">
+      <a href="/index-jp.html" class="back-btn">
+        <svg width="16" height="12" viewBox="0 0 16 12" fill="none">
+          <path d="M6 1L1 6L6 11M1 6H15" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        ホームへ戻る
+      </a>
+      <p class="page-num reveal">04 / 05</p>
+      <h1 class="page-title reveal" data-d="1">BAFTA</h1>
+    </div>
+  </header>
+
+  <!-- CONTENT -->
+  <main class="page-content">
+    <div class="wrap">
+
+      <!-- Membership Section -->
+      <p class="section-tag reveal">メンバーシップ</p>
+      <div class="bafta-membership-intro reveal" data-d="1">
+        <p><strong>BAFTA（英国映画テレビ芸術アカデミー）正会員</strong></p>
+        <p>映画・テレビ・ゲーム分野における世界最高峰の機関の一つ、BAFTAの正会員として活動しています。本資格は各分野で顕著な業績を上げた実務者にのみ与えられるもので、正会員としてBAFTA賞の投票権を持つほか、映像表現の卓越性と多様性を推進する業界活動に従事しています。</p>
+        <p>長年にわたるアカデミーへの貢献は、自身のコンポジット技術の追求のみならず、次世代のクリエイティブコミュニティの発展を支える活動にも反映されています。</p>
+      </div>
+
+      <!-- Activities Section -->
+      <p class="section-tag reveal">主な活動歴</p>
+
+      <div class="bafta-feature reveal" data-d="1">
+        <p class="bafta-event-tag">BAFTA テレビクラフトアワード &nbsp;·&nbsp; 2024</p>
+        <h2 class="bafta-role-title">審査員</h2>
+        <p class="bafta-category-name">部門 &nbsp;/&nbsp; タイトル＆グラフィックアイデンティティ</p>
+        <p class="bafta-feature-desc">
+          大手スタジオから独立系クリエイターまで、現代のテレビ制作におけるモーションデザインやタイトルシーケンスの技術、革新性、表現のインパクトを評価・選出しました。
+        </p>
+      </div>
+
+      <!-- Outreach Section -->
+      <p class="section-tag reveal">教育・アウトリーチ</p>
+      <div class="bafta-membership-intro reveal" data-d="1">
+        <p>英国と日本のクリエイティブ産業を繋ぐ架け橋として、独自の教育支援を行っています。特に若い世代や学生を対象に、BAFTAをはじめとする国際的なプログラムへの参加を促し、世界水準の映像制作現場への理解を深める機会を提供しています。</p>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <span class="footer-copy">&copy; 2026 Eri Adachi</span>
+    <span class="footer-right">シニアコンポジター &nbsp;·&nbsp; VFXアーティスト</span>
+  </footer>
+
+  <script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('is-scrolled', window.scrollY > 40);
+    }, { passive: true });
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('in-view'); observer.unobserve(e.target); }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    document.querySelectorAll('#langToggle .lang-option').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const toggle = document.getElementById('langToggle');
+        const url = btn.dataset.lang === 'en' ? toggle.dataset.enUrl : toggle.dataset.jaUrl;
+        if (url) window.location.href = url;
+      });
+    });
+  </script>
+
+</body>
+</html>

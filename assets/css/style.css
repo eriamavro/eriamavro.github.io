@@ -64,6 +64,53 @@ a { color: inherit; }
 
 .nav-logo:hover { color: var(--gold); }
 
+.lang-switch {
+  display: flex;
+  align-items: center;
+  margin-left: 32px;
+  border: 1px solid var(--border-mid);
+  border-radius: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.lang-option {
+  background: none;
+  border: none;
+  padding: 5px 9px;
+  cursor: pointer;
+  opacity: 0.3;
+  transition: opacity 0.3s, background-color 0.3s;
+  display: flex;
+  align-items: center;
+  line-height: 0;
+}
+
+.lang-option:first-child {
+  border-right: 1px solid var(--border-mid);
+}
+
+.lang-option.active {
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.lang-option:hover {
+  opacity: 0.65;
+}
+
+.lang-option.active:hover {
+  opacity: 1;
+}
+
+.lang-option img {
+  height: 13px;
+  width: 20px;
+  object-fit: cover;
+  border-radius: 2px;
+  display: block;
+}
+
 .nav-menu {
   list-style: none;
   display: flex;
@@ -544,20 +591,22 @@ a { color: inherit; }
 }
 
 .about-social a {
-  font-family: 'DM Sans', sans-serif;
-  font-size: 11px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+  display: flex;
+  align-items: center;
   text-decoration: none;
-  color: var(--white);
-  border-bottom: 1px solid var(--border-mid);
-  padding-bottom: 2px;
-  transition: color 0.3s, border-color 0.3s;
+  opacity: 0.5;
+  transition: opacity 0.3s;
 }
 
 .about-social a:hover {
-  color: var(--gold);
-  border-color: var(--gold);
+  opacity: 1;
+}
+
+.about-social img {
+  height: 30px;
+  width: auto;
+  display: block;
+  mix-blend-mode: screen;
 }
 
 /* ===== FOOTER ===== */
@@ -1189,4 +1238,34 @@ a { color: inherit; }
   .hero-links        { flex-wrap: wrap; justify-content: center; gap: 24px; }
   .hero-tagline      { letter-spacing: 2px; }
   .work-gallery      { grid-template-columns: 1fr; }
+}
+
+/* ===== JAPANESE TYPOGRAPHY ===== */
+/* Japanese characters fill ~100% of the em square vs ~65% for Cormorant Garamond,
+   making them appear ~25% larger visually at the same px size.
+   letter-spacing designed for Latin also reads too wide in Japanese. */
+
+html[lang="ja"] .section-heading {
+  font-size: clamp(23px, 3.1vw, 40px);
+  letter-spacing: 2px;
+}
+
+html[lang="ja"] .section-tag {
+  letter-spacing: 2px;
+}
+
+html[lang="ja"] .bafta-role-title {
+  letter-spacing: 1px;
+}
+
+html[lang="ja"] .hero-eyebrow {
+  letter-spacing: 3px;
+}
+
+html[lang="ja"] .hero-tagline {
+  letter-spacing: 1px;
+}
+
+html[lang="ja"] .bafta-event-tag {
+  letter-spacing: 1px;
 }

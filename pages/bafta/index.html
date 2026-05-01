@@ -14,12 +14,20 @@
     <a href="/" class="nav-logo">Eri Adachi</a>
     <ul class="nav-menu">
       <li><a href="/#about">About</a></li>
-      <li><a href="/pages/demoreel/">Demo Reel</a></li>
+      <li><a href="/pages/demoreel/">Demoreel</a></li>
       <li><a href="/pages/bafta/">BAFTA</a></li>
       <li><a href="/pages/education/">Education</a></li>
       <li><a href="/pages/press/">Press</a></li>
-      <li><a href="/pages/breakdown-2/">Breakdown</a></li>
     </ul>
+    <div class="lang-switch" id="langToggle" role="group" aria-label="Switch language"
+         data-en-url="/pages/bafta/" data-ja-url="/pages/bafta/index-jp.html">
+      <button class="lang-option lang-opt-en active" data-lang="en" aria-label="English">
+        <img src="../../assets/flag-uk.png" alt="EN">
+      </button>
+      <button class="lang-option lang-opt-ja" data-lang="ja" aria-label="日本語">
+        <img src="../../assets/flag-jp.png" alt="JP">
+      </button>
+    </div>
   </nav>
 
   <!-- PAGE HEADER -->
@@ -44,15 +52,15 @@
       <p class="section-tag reveal">Membership</p>
       <div class="bafta-membership-intro reveal" data-d="1">
         <p>
-          Eri Adachi is a <strong>Full Member of BAFTA</strong> — the British Academy
+          A <strong>Full Member of BAFTA</strong> — the British Academy
           of Film and Television Arts — one of the world's most prestigious organisations
           dedicated to supporting, developing, and promoting the art of film, television,
           and games.
         </p>
         <p>
-          BAFTA Full Membership is open to practitioners with a significant body of
-          professional work in their field. As a Full Member, Eri actively participates
-          in the Academy's activities, including voting for BAFTA Awards and contributing
+          Full Membership is open to practitioners with a significant body of
+          professional work in their field. As a Full Member, active participation
+          in the Academy's activities includes voting for BAFTA Awards and contributing
           to industry initiatives that champion excellence and diversity in visual
           storytelling.
         </p>
@@ -103,7 +111,7 @@
 
   <!-- FOOTER -->
   <footer class="site-footer">
-    <span class="footer-copy">&copy; 2024 Eri Adachi</span>
+    <span class="footer-copy">&copy; 2026 Eri Adachi</span>
     <span class="footer-right">Senior Compositor &nbsp;·&nbsp; VFX Artist</span>
   </footer>
 
@@ -119,6 +127,14 @@
       });
     }, { threshold: 0.1 });
     document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    document.querySelectorAll('#langToggle .lang-option').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const toggle = document.getElementById('langToggle');
+        const url = btn.dataset.lang === 'en' ? toggle.dataset.enUrl : toggle.dataset.jaUrl;
+        if (url) window.location.href = url;
+      });
+    });
   </script>
 
 </body>

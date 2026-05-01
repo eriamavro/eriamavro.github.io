@@ -527,7 +527,7 @@ a { color: inherit; }
 
 .social-icon-link { display: flex; align-items: center; }
 .social-icon-link img {
-  height: 13px;
+  height: 1em;
   width: auto;
   mix-blend-mode: screen;
   filter: grayscale(1) brightness(0.75);

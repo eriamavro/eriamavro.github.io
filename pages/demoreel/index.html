@@ -17,6 +17,24 @@
 </head>
 <body>
 
+  <!-- PASSWORD GATE -->
+  <div id="gate" style="position:fixed;inset:0;background:#0a0a12;z-index:9999;display:flex;align-items:center;justify-content:center;padding:24px;">
+    <div style="text-align:center;max-width:360px;width:100%;">
+      <p style="font-family:'Cormorant Garamond',serif;font-size:11px;letter-spacing:4px;text-transform:uppercase;color:#c9a84c;margin-bottom:24px;">Private</p>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-size:36px;font-weight:300;color:#f0ede8;margin-bottom:12px;">Demo Reel</h2>
+      <p style="color:#888888;font-size:14px;font-family:'DM Sans',sans-serif;font-weight:300;margin-bottom:32px;">This page is private. Contact Eri to request the password.</p>
+      <div style="display:flex;border:1px solid #252525;border-radius:4px;overflow:hidden;">
+        <input type="password" id="pwInput" placeholder="Password" autocomplete="current-password"
+          style="flex:1;background:#111111;border:none;padding:14px 16px;color:#f0ede8;font-family:'DM Sans',sans-serif;font-size:14px;font-weight:300;outline:none;">
+        <button id="pwBtn" type="button"
+          style="background:#c9a84c;border:none;padding:14px 22px;color:#0a0a12;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:500;cursor:pointer;letter-spacing:1px;white-space:nowrap;">
+          Enter
+        </button>
+      </div>
+      <p id="pwErr" style="color:#e05555;font-size:13px;font-family:'DM Sans',sans-serif;margin-top:14px;display:none;">Incorrect password. Please try again.</p>
+    </div>
+  </div>
+
   <!-- NAV -->
   <nav class="site-nav" id="nav">
     <a href="/" class="nav-logo">Eri Adachi</a>
@@ -58,20 +76,20 @@
       <p class="section-tag reveal">2024</p>
       <div class="reel-embed reveal" data-d="1">
         <iframe
-          src="https://player.vimeo.com/video/946157469?color=c9a84c&title=0&byline=0&portrait=0&dnt=1"
-          allow="autoplay; fullscreen; picture-in-picture"
+          src="https://www.youtube.com/embed/xSuvZgqfW5I?rel=0"
+          allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; gyroscope"
           allowfullscreen
           title="Eri Adachi — Demo Reel 2024"
         ></iframe>
       </div>
       <a
-        href="https://vimeo.com/946157469"
+        href="https://youtu.be/xSuvZgqfW5I"
         target="_blank"
         rel="noopener noreferrer"
         class="reel-vimeo-link reveal"
         data-d="3"
       >
-        Watch on Vimeo &nbsp;→
+        Watch on YouTube &nbsp;→
       </a>
 
       <div class="breakdown-box reveal" style="margin-top: 80px;">
@@ -95,6 +113,33 @@
   </footer>
 
   <script>
+    (function() {
+      const gate = document.getElementById('gate');
+      const pwInput = document.getElementById('pwInput');
+      const pwBtn = document.getElementById('pwBtn');
+      const pwErr = document.getElementById('pwErr');
+      const PASS = 'bTasI888';
+      const KEY = 'dr_unlocked';
+
+      if (sessionStorage.getItem(KEY) === '1') {
+        gate.remove();
+      } else {
+        pwInput.focus();
+        function attempt() {
+          if (pwInput.value === PASS) {
+            sessionStorage.setItem(KEY, '1');
+            gate.remove();
+          } else {
+            pwErr.style.display = 'block';
+            pwInput.value = '';
+            pwInput.focus();
+          }
+        }
+        pwBtn.addEventListener('click', attempt);
+        pwInput.addEventListener('keydown', function(e) { if (e.key === 'Enter') attempt(); });
+      }
+    })();
+
     const nav = document.getElementById('nav');
     window.addEventListener('scroll', () => {
       nav.classList.toggle('is-scrolled', window.scrollY > 40);

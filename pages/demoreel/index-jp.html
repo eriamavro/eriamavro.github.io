@@ -19,16 +19,43 @@
 
   <!-- PASSWORD GATE -->
   <div id="gate" style="position:fixed;inset:0;background:#0a0a12;z-index:999;display:flex;align-items:center;justify-content:center;padding:24px;">
-    <div style="text-align:center;margin-top:80px;">
+    <div style="text-align:center;margin-top:80px;width:100%;max-width:320px;">
       <p style="font-family:'Cormorant Garamond',serif;font-size:14px;font-weight:300;color:#888888;line-height:1.9;letter-spacing:0.03em;margin-bottom:32px;">
-        権利保護のため、閲覧にはパスワードが必要です。<br>ご希望の方はお問い合わせください。
+        著作権保護のため、閲覧にはパスワードが必要です。<br>
+        ご希望の方は<a href="/#contact" style="color:#c9a84c;text-decoration:none;">お問い合わせフォーム</a>からご連絡ください。
       </p>
-      <a href="/#contact"
-        style="display:inline-block;background:transparent;border:1px solid #c9a84c;padding:13px 30px;color:#c9a84c;font-family:'DM Sans',sans-serif;font-size:12px;font-weight:400;cursor:pointer;letter-spacing:2px;text-decoration:none;">
-        アクセスをリクエストする
-      </a>
+      <div style="border-bottom:1px solid #252525;margin-bottom:24px;">
+        <input id="gateInput" type="password" placeholder="パスワード"
+          style="width:100%;background:transparent;border:none;padding:10px 0;color:#f0ede8;font-family:'DM Sans',sans-serif;font-size:14px;font-weight:300;outline:none;"
+          autocomplete="off">
+      </div>
+      <button id="gateBtn" onclick="checkPass()"
+        style="background:transparent;border:1px solid #c9a84c;color:#c9a84c;padding:13px 40px;font-family:'DM Sans',sans-serif;font-size:11px;letter-spacing:2.5px;text-transform:uppercase;cursor:pointer;">
+        入力する
+      </button>
+      <p id="gateError" style="display:none;margin-top:16px;font-family:'DM Sans',sans-serif;font-size:12px;color:#c96060;letter-spacing:0.5px;">
+        パスワードが違います。
+      </p>
     </div>
   </div>
+  <script>
+    function checkPass() {
+      if (document.getElementById('gateInput').value === 'bTasI888') {
+        document.getElementById('gate').style.display = 'none';
+        sessionStorage.setItem('demoreel_unlocked', '1');
+      } else {
+        document.getElementById('gateError').style.display = 'block';
+      }
+    }
+    if (sessionStorage.getItem('demoreel_unlocked') === '1') {
+      document.getElementById('gate').style.display = 'none';
+    }
+    document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('gateInput').addEventListener('keydown', e => {
+        if (e.key === 'Enter') checkPass();
+      });
+    });
+  </script>
 
   <!-- NAV -->
   <nav class="site-nav" id="nav">

@@ -18,13 +18,11 @@
 <body>
 
   <!-- PASSWORD GATE -->
-  <div id="gate" style="position:fixed;inset:0;background:#0a0a12;z-index:9999;display:flex;align-items:center;justify-content:center;padding:24px;">
+  <div id="gate" style="position:fixed;inset:0;background:#0a0a12;z-index:9999;display:flex;align-items:center;justify-content:center;padding:24px;cursor:default;">
     <div style="text-align:center;">
-      <p style="font-family:'Cormorant Garamond',serif;font-size:13px;letter-spacing:5px;text-transform:uppercase;color:#888888;margin-bottom:20px;">Private Video</p>
-      <button id="pwBtn" type="button"
-        style="background:transparent;border:1px solid #c9a84c;padding:14px 32px;color:#c9a84c;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:400;cursor:pointer;letter-spacing:2px;text-transform:uppercase;">
-        Request Password
-      </button>
+      <p style="font-family:'Cormorant Garamond',serif;font-size:14px;font-weight:300;color:#888888;line-height:1.9;letter-spacing:0.03em;">
+        Protected for copyright reasons.<br>Access available upon request.
+      </p>
     </div>
   </div>
 
@@ -115,7 +113,7 @@
       if (sessionStorage.getItem(KEY) === '1') {
         gate.remove();
       } else {
-        pwBtn.addEventListener('click', function() {
+        gate.addEventListener('click', function() {
           const input = window.prompt('Password:');
           if (input === PASS) {
             sessionStorage.setItem(KEY, '1');

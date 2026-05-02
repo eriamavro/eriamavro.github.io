@@ -997,7 +997,8 @@ a { color: inherit; }
   transition: opacity 0.3s;
 }
 
-.press-thumb:hover { opacity: 1; }
+a .press-thumb:hover { opacity: 1; }
+.press-thumb--muted { opacity: 0.45; }
 
 .press-pub-tag {
   font-family: 'DM Sans', sans-serif;

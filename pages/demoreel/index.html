@@ -39,8 +39,12 @@
     </div>
   </div>
   <script>
-    function checkPass() {
-      if (document.getElementById('gateInput').value === 'bTasI888') {
+    async function checkPass() {
+      const input = document.getElementById('gateInput').value;
+      const encoded = new TextEncoder().encode(input);
+      const hashBuffer = await crypto.subtle.digest('SHA-256', encoded);
+      const hashHex = Array.from(new Uint8Array(hashBuffer)).map(b => b.toString(16).padStart(2, '0')).join('');
+      if (hashHex === '4e43392070fed87ba698db3bf3e8f253713801c8516780b2842b7386428e05ee') {
         document.getElementById('gate').style.display = 'none';
         sessionStorage.setItem('demoreel_unlocked', '1');
       } else {

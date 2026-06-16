@@ -198,6 +198,16 @@ a { color: inherit; }
   margin-bottom: 28px;
 }
 
+.hero-name-kanji {
+  font-family: 'DM Sans', sans-serif;
+  font-size: clamp(14px, 1.7vw, 20px);
+  font-weight: 300;
+  letter-spacing: 0.18em;
+  color: var(--gray-light);
+  line-height: 1;
+  margin: -10px 0 28px;
+}
+
 .hero-rule {
   width: 48px;
   height: 1px;

@@ -1,0 +1,590 @@
+[
+  {
+    "name": "BAFTA Student Awards",
+    "country": {
+      "en": "United Kingdom",
+      "ja": "イギリス"
+    },
+    "category": {
+      "en": "Film / Media",
+      "ja": "映像全般"
+    },
+    "eligibility": "conditional",
+    "deadline": "例年 3月〜4月",
+    "entryFee": "公式参照",
+    "difficulty": "★★★★★",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "原則、認定校経由。個人応募は事前相談。世界最高峰の学生賞。映画のほかゲーム部門、イマーシブ部門あり。各校に提出数上限あり。"
+    },
+    "watchMode": "manual",
+    "link": "https://www.bafta.org/programmes/bafta-student-awards/"
+  },
+  {
+    "name": "BFI Future Film Festival",
+    "country": {
+      "en": "United Kingdom",
+      "ja": "イギリス"
+    },
+    "category": {
+      "en": "Short Film",
+      "ja": "短編全般"
+    },
+    "eligibility": "worldwide",
+    "deadline": "例年 11-12月頃",
+    "entryFee": "無料",
+    "difficulty": "★★★★☆",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "海外から応募可能。16-25歳限定。英国映画協会主催。短編作品が対象（時間制限等の詳細条件は年度により異なるため公式サイト参照）。若手クリエイターの登竜門。"
+    },
+    "watchMode": "manual",
+    "link": "https://whatson.bfi.org.uk/lff/Online/default.asp"
+  },
+  {
+    "name": "BFX Festival",
+    "country": {
+      "en": "United Kingdom",
+      "ja": "イギリス"
+    },
+    "category": {
+      "en": "Animation / VFX",
+      "ja": "アニメーション / VFX"
+    },
+    "eligibility": "worldwide",
+    "deadline": "公式参照",
+    "entryFee": "公式参照",
+    "difficulty": "★★★☆☆",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "海外から応募可能。VFXとアニメーションに特化。実験的な映像や人工知能生成作品も受け入れ。締切は年度ごとに変わるため公式サイト参照。"
+    },
+    "link": "https://www.bfxfestival.com/"
+  },
+  {
+    "name": "London International Animation Festival (LIAF)",
+    "country": {
+      "en": "United Kingdom",
+      "ja": "イギリス"
+    },
+    "category": {
+      "en": "Animation",
+      "ja": "アニメーション"
+    },
+    "eligibility": "international_students",
+    "deadline": "例年 10月",
+    "entryFee": "公式参照",
+    "difficulty": "要確認",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "学生・プロを問わず応募可能。学生アニメーション部門あり。応募条件、参加費、提出形式は年度により変わるため公式サイト参照。"
+    },
+    "link": "https://liaf.org.uk/entries"
+  },
+  {
+    "name": "Sheffield Doc/Fest",
+    "country": {
+      "en": "United Kingdom",
+      "ja": "イギリス"
+    },
+    "category": {
+      "en": "Documentary",
+      "ja": "ドキュメンタリー"
+    },
+    "eligibility": "worldwide",
+    "deadline": "例年 11月〜1月頃",
+    "entryFee": "公式参照",
+    "difficulty": "要確認",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "全世界から応募可能。英国の主要ドキュメンタリー映画祭。学生・インディペンデント作品も応募可。各種条件は年度ごとに変わるため公式サイト参照。"
+    },
+    "link": "https://www.sheffdocfest.com/"
+  },
+  {
+    "name": "Grierson Awards",
+    "country": {
+      "en": "United Kingdom",
+      "ja": "イギリス"
+    },
+    "category": {
+      "en": "Documentary",
+      "ja": "ドキュメンタリー"
+    },
+    "eligibility": "conditional",
+    "deadline": "例年 6月〜7月頃",
+    "entryFee": "公式参照",
+    "difficulty": "要確認",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "条件あり・要確認。学生ドキュメンタリー部門あり。UK初上映条件等、詳細な応募条件は年度ごとに変わるため公式サイト参照。"
+    },
+    "link": "https://griersontrust.org/grierson-awards/"
+  },
+  {
+    "name": "Animex",
+    "country": {
+      "en": "United Kingdom",
+      "ja": "イギリス"
+    },
+    "category": {
+      "en": "Animation / VFX",
+      "ja": "アニメーション / VFX"
+    },
+    "eligibility": "international_students",
+    "deadline": "例年 8月",
+    "entryFee": "公式参照",
+    "difficulty": "要確認",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "海外の学生も応募可能。二次元、三次元、コンピューターグラフィックス、ストップモーション、VFXなどの学生作品が対象。最新の部門条件は公式サイト参照。"
+    },
+    "link": "https://animex.tees.ac.uk/"
+  },
+  {
+    "name": "Annecy (Graduation Films)",
+    "country": {
+      "en": "France",
+      "ja": "フランス"
+    },
+    "category": {
+      "en": "Animation",
+      "ja": "アニメーション"
+    },
+    "eligibility": "international_students",
+    "deadline": "例年 2月頃",
+    "entryFee": "無料",
+    "difficulty": "★★★★★",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "全世界から応募可能。学生卒業制作が対象。世界最大のアニメ祭。学生部門入賞はプロへの最短ルート。"
+    },
+    "link": "https://www.annecyfestival.com/en/take-part/submit-film"
+  },
+  {
+    "name": "La Cinef (Cannes)",
+    "country": {
+      "en": "France",
+      "ja": "フランス"
+    },
+    "category": {
+      "en": "Film / Media",
+      "ja": "映像全般"
+    },
+    "eligibility": "conditional",
+    "deadline": "例年 2月頃",
+    "entryFee": "無料",
+    "difficulty": "★★★★★",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "映像系教育機関の学生限定。カンヌ国際映画祭の学生部門。世界で最も選出が難しいコンペの一つ。"
+    },
+    "link": "https://www.festival-cannes.com/en/take-part/submit-a-film/la-cinef-rules-and-regulations/"
+  },
+  {
+    "name": "Animafest Zagreb",
+    "country": {
+      "en": "Croatia",
+      "ja": "クロアチア"
+    },
+    "category": {
+      "en": "Animation",
+      "ja": "アニメーション"
+    },
+    "eligibility": "worldwide",
+    "deadline": "例年 1月〜2月",
+    "entryFee": "公式参照",
+    "difficulty": "要確認",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "全世界から応募可能。欧州の主要アニメーション映画祭。学生作品も応募できる。応募部門、締切、提出条件は公式サイト参照。"
+    },
+    "link": "https://www.animafest.hr/en"
+  },
+  {
+    "name": "Clermont-Ferrand International Short Film Festival",
+    "country": {
+      "en": "France",
+      "ja": "フランス"
+    },
+    "category": {
+      "en": "Short Film",
+      "ja": "短編全般"
+    },
+    "eligibility": "worldwide",
+    "deadline": "例年 9月〜10月",
+    "entryFee": "公式参照",
+    "difficulty": "要確認",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "全世界から応募可能。世界的に知られる短編映画祭。国際部門、国内部門などの応募条件は公式サイト参照。"
+    },
+    "link": "https://clermont-filmfest.org/"
+  },
+  {
+    "name": "IDFA (International Documentary Film Festival Amsterdam)",
+    "country": {
+      "en": "Netherlands",
+      "ja": "オランダ"
+    },
+    "category": {
+      "en": "Documentary",
+      "ja": "ドキュメンタリー"
+    },
+    "eligibility": "worldwide",
+    "deadline": "例年 7月〜8月",
+    "entryFee": "公式参照",
+    "difficulty": "要確認",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "全世界から応募可能。世界有数のドキュメンタリー映画祭。学生作品も応募できる。応募部門、締切、提出条件は公式サイト参照。"
+    },
+    "link": "https://www.idfa.nl/"
+  },
+  {
+    "name": "Berlinale Generation",
+    "country": {
+      "en": "Germany",
+      "ja": "ドイツ"
+    },
+    "category": {
+      "en": "Film / Media",
+      "ja": "映像全般"
+    },
+    "eligibility": "worldwide",
+    "deadline": "例年 10-11月",
+    "entryFee": "公式参照",
+    "difficulty": "★★★★★",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "全世界から応募可能。若者向け作品が対象。ベルリン国際映画祭の部門で、子ども・青年が対象の作品であれば学生応募可。"
+    },
+    "link": "https://www.berlinale.de/en/festival/sections/generation.html"
+  },
+  {
+    "name": "Student Academy Awards",
+    "country": {
+      "en": "United States",
+      "ja": "アメリカ"
+    },
+    "category": {
+      "en": "Film / Media",
+      "ja": "映像全般"
+    },
+    "eligibility": "conditional",
+    "deadline": "例年 6月頃",
+    "entryFee": "無料",
+    "difficulty": "★★★★★",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "認定校の学生限定。米国アカデミー賞主催。受賞者は本家のノミネート資格を得ることもある。"
+    },
+    "link": "https://www.oscars.org/saa"
+  },
+  {
+    "name": "ACM SIGGRAPH (SRC)",
+    "country": {
+      "en": "United States",
+      "ja": "アメリカ"
+    },
+    "category": {
+      "en": "Technology / VFX",
+      "ja": "技術 / VFX"
+    },
+    "eligibility": "conditional",
+    "deadline": "例年 1-3月",
+    "entryFee": "会員費",
+    "difficulty": "★★★★★",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "学生会員であること。技術研究・コンピューターグラフィックス表現の最高峰。作品の背景にある技術が評価対象。"
+    },
+    "link": "https://s2025.siggraph.org/"
+  },
+  {
+    "name": "SIGGRAPH Asia",
+    "country": {
+      "en": "Asia",
+      "ja": "アジア"
+    },
+    "category": {
+      "en": "Technology / VFX",
+      "ja": "技術 / VFX"
+    },
+    "eligibility": "conditional",
+    "deadline": "公式参照",
+    "entryFee": "公式参照",
+    "difficulty": "要確認",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "条件あり・要確認。開催地は年ごとにアジア各地を巡回。コンピューターアニメーション、アート、拡張現実、技術発表など、アジア地区の映像・コンピューターグラフィックス・インタラクティブ分野の最新情報を確認できる。作品応募の部門、締切、参加条件は公式サイト参照。"
+    },
+    "link": "https://asia.siggraph.org/"
+  },
+  {
+    "name": "Palm Springs ShortFest",
+    "country": {
+      "en": "United States",
+      "ja": "アメリカ"
+    },
+    "category": {
+      "en": "Short Film",
+      "ja": "短編全般"
+    },
+    "eligibility": "worldwide",
+    "deadline": "例年 2月〜3月",
+    "entryFee": "公式参照",
+    "difficulty": "要確認",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "全世界から応募可能。短編映画を対象とする国際映画祭。アニメ、ドキュメンタリー、実写などの部門条件は公式サイト参照。"
+    },
+    "link": "https://www.psfilmfest.org/shortfest"
+  },
+  {
+    "name": "Tribeca Festival",
+    "country": {
+      "en": "United States",
+      "ja": "アメリカ"
+    },
+    "category": {
+      "en": "Film / Media",
+      "ja": "映像全般"
+    },
+    "eligibility": "worldwide",
+    "deadline": "例年 11月〜12月",
+    "entryFee": "公式参照",
+    "difficulty": "要確認",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "全世界から応募可能。短編、アニメーション、ドキュメンタリーなどの部門あり。学生制作作品を対象とした扱いや、若手クリエイター向けの応募部門が設けられる場合がある。募集カテゴリーと応募条件は年度により変わるため公式サイト参照。"
+    },
+    "link": "https://tribecafilm.com/festival"
+  },
+  {
+    "name": "Ottawa Int'l Animation Festival",
+    "country": {
+      "en": "Canada",
+      "ja": "カナダ"
+    },
+    "category": {
+      "en": "Animation",
+      "ja": "アニメーション"
+    },
+    "eligibility": "worldwide",
+    "deadline": "例年 4-5月",
+    "entryFee": "公式参照",
+    "difficulty": "★★★★☆",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "全世界から応募可能。学生部門あり。北米最大のアニメ祭。学生部門が独立しており、芸術性が重視される。"
+    },
+    "link": "https://www.animationfestival.ca/"
+  },
+  {
+    "name": "Hot Docs",
+    "country": {
+      "en": "Canada",
+      "ja": "カナダ"
+    },
+    "category": {
+      "en": "Documentary",
+      "ja": "ドキュメンタリー"
+    },
+    "eligibility": "worldwide",
+    "deadline": "例年 10月〜11月",
+    "entryFee": "公式参照",
+    "difficulty": "要確認",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "全世界から応募可能。北米の主要ドキュメンタリー映画祭。部門ごとの応募条件、締切、参加費は公式サイト参照。"
+    },
+    "link": "https://hotdocs.ca/"
+  },
+  {
+    "name": "SICAF",
+    "country": {
+      "en": "South Korea",
+      "ja": "韓国"
+    },
+    "category": {
+      "en": "Animation",
+      "ja": "アニメーション"
+    },
+    "eligibility": "worldwide",
+    "deadline": "例年 2月〜3月",
+    "entryFee": "公式参照",
+    "difficulty": "要確認",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "全世界から応募可能。アニメーション作品を対象とする国際フェスティバル。学生部門や応募条件は公式サイト参照。"
+    },
+    "link": "https://sicaf.org/"
+  },
+  {
+    "name": "文化庁メディア芸術祭",
+    "country": {
+      "en": "Japan",
+      "ja": "日本"
+    },
+    "category": {
+      "en": "Animation / Art",
+      "ja": "アニメーションーション / アート"
+    },
+    "eligibility": "worldwide",
+    "deadline": "例年 8-9月",
+    "entryFee": "無料",
+    "difficulty": "★★★★★",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "全世界から応募可能。学生応募可。国内最大級のアワード。アニメ・アート・エンタメ等、幅広いジャンルが対象。"
+    },
+    "link": "https://j-mediaarts.jp/"
+  },
+  {
+    "name": "学生CGコンテスト",
+    "country": {
+      "en": "Japan",
+      "ja": "日本"
+    },
+    "category": {
+      "en": "Digital Media",
+      "ja": "デジタル映像"
+    },
+    "eligibility": "conditional",
+    "deadline": "例年 9-10月",
+    "entryFee": "無料",
+    "difficulty": "★★★★☆",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "学生限定。高校生から大学院生までが対象。30年近い歴史を持つ学生の登竜門。コンピューターグラフィックス・映像・インタラクティブ領域を扱う。"
+    },
+    "link": "https://nya-award.jp/"
+  },
+  {
+    "name": "DigiCon6 ASIA",
+    "country": {
+      "en": "Japan",
+      "ja": "日本"
+    },
+    "category": {
+      "en": "Film / Media",
+      "ja": "映像全般"
+    },
+    "eligibility": "worldwide",
+    "deadline": "例年 6-8月",
+    "entryFee": "無料",
+    "difficulty": "★★★☆☆",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "アジア圏から応募可能。15-35歳目安。アジア各国の若手クリエイターが競う。日本大賞あり。"
+    },
+    "link": "https://www.tbs.co.jp/digicon/"
+  },
+  {
+    "name": "SSFF & ASIA",
+    "country": {
+      "en": "Japan",
+      "ja": "日本"
+    },
+    "category": {
+      "en": "Short Film",
+      "ja": "短編全般"
+    },
+    "eligibility": "worldwide",
+    "deadline": "例年 12-2月",
+    "entryFee": "公式参照",
+    "difficulty": "★★★★☆",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "全世界から応募可能。学生応募可。アカデミー賞公認の国際短編映画祭。学生部門が非常に充実。"
+    },
+    "link": "https://www.shortshorts.org/"
+  },
+  {
+    "name": "山形国際ドキュメンタリー映画祭",
+    "country": {
+      "en": "Japan",
+      "ja": "日本"
+    },
+    "category": {
+      "en": "Documentary",
+      "ja": "ドキュメント"
+    },
+    "eligibility": "worldwide",
+    "deadline": "例年 4月（奇数年）",
+    "entryFee": "無料",
+    "difficulty": "★★★★★",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "全世界から応募可能。2年に1度開催。世界的なドキュメンタリーの聖地。学生向けの「アジア千波万波」あり。"
+    },
+    "link": "https://www.yidff.jp/"
+  },
+  {
+    "name": "ISCA",
+    "country": {
+      "en": "Japan",
+      "ja": "日本"
+    },
+    "category": {
+      "en": "Film / Media",
+      "ja": "映像全般"
+    },
+    "eligibility": "conditional",
+    "deadline": "例年 9-10月",
+    "entryFee": "無料",
+    "difficulty": "★★★☆☆",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "国内外の学生限定。国内外の学生作品を繋ぐコンテスト。実写、デジタルコンテンツ等が対象。"
+    },
+    "link": "https://kc-i.jp/activity/award/isca/2025/"
+  },
+  {
+    "name": "ぴあフィルムフェスティバル(PFF)",
+    "country": {
+      "en": "Japan",
+      "ja": "日本"
+    },
+    "category": {
+      "en": "Live Action / Short Film",
+      "ja": "実写 / 短編"
+    },
+    "eligibility": "conditional",
+    "deadline": "例年 5-6月",
+    "entryFee": "有料",
+    "difficulty": "★★★★☆",
+    "notes": {
+      "en": "See official website for details.",
+      "ja": "日本国内中心の自主制作作品が対象。日本の自主制作映画の最高峰。プロへの登竜門として知られる。"
+    },
+    "link": "https://pff.jp/"
+  },
+  {
+    "name": "The Rookies (Rookie Awards)",
+    "country": {
+      "en": "Australia",
+      "ja": "オーストラリア"
+    },
+    "category": {
+      "en": "Film / Media",
+      "ja": "映像全般"
+    },
+    "eligibility": "international_students",
+    "deadline": {
+      "en": "Usually April-June",
+      "ja": "例年 4月〜6月"
+    },
+    "entryFee": {
+      "en": "Free",
+      "ja": "無料"
+    },
+    "difficulty": "★★★★☆",
+    "notes": {
+      "en": "Portfolio-based international award for students and emerging creatives. Covers animation, VFX, games, motion graphics, and XR. Overall skills and creative process are evaluated rather than a single finished piece.",
+      "ja": "学生・新人クリエイター向けのポートフォリオ提出型国際アワード。アニメーション、VFX、ゲーム、モーショングラフィックス、XRなど幅広い分野に対応。単一作品だけでなく、制作過程を含めたスキル全体が評価される。"
+    },
+    "link": "https://www.therookies.co/rookieawards"
+  }
+]

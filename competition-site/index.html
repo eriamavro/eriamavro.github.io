@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Competition List for Students</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "wmgwzzg7as");
+  </script>
+</head>
+<body id="top">
+  <header class="site-header">
+    <div class="header-inner">
+      <nav class="language-switch" aria-label="Language switch">
+        <a class="is-active" href="./" aria-current="page">EN</a>
+        <span aria-hidden="true">|</span>
+        <a href="jp/">JP</a>
+      </nav>
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="active" href="./" aria-current="page">Competitions</a>
+        <a href="about.html">About</a>
+      </nav>
+      <p class="eyebrow">Competition List</p>
+      <h1>Media and Film Competition List</h1>
+      <p class="notice">*Eligibility and deadlines may change. Please check the official website for the latest information.</p>
+      <p id="watchSummary" class="watch-summary" aria-live="polite">Automatic official-site checks have not run yet.</p>
+      <p class="lead">A curated list of film, animation, documentary, CG, and media competitions relevant to students applying from Japan.</p>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="toolbar" aria-label="Competition filters">
+      <div>
+        <h2>Category</h2>
+        <div id="categoryFilters" class="filter-group" aria-label="Filter by category"></div>
+      </div>
+      <p id="resultCount" class="result-count" aria-live="polite"></p>
+    </section>
+
+    <section id="competitionList" class="country-list" aria-label="Competition list">
+      <p class="loading">Loading...</p>
+    </section>
+  </main>
+
+  <script src="js/app.js"></script>
+
+  <footer class="site-footer">
+    <p>Curated by Eri Adachi</p>
+    <a href="about.html">About This Project</a>
+    <a class="operator-link" href="https://www.eriadachi.com/pages/education/">Visit Eri Adachi&rsquo;s Website</a>
+    <a href="#top">↑ Back to top</a>
+  </footer>
+</body>
+</html>

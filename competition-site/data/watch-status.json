@@ -2,7 +2,7 @@
   "https://www.bafta.org/programmes/bafta-student-awards/": {
     "name": "BAFTA Student Awards",
     "url": "https://www.bafta.org/programmes/bafta-student-awards/",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
     "changedAt": null,
     "changed": false,
     "status": "manual",
@@ -13,7 +13,7 @@
   "https://whatson.bfi.org.uk/lff/Online/default.asp": {
     "name": "BFI Future Film Festival",
     "url": "https://whatson.bfi.org.uk/lff/Online/default.asp",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
     "changedAt": null,
     "changed": false,
     "status": "manual",
@@ -24,7 +24,7 @@
   "https://www.bfxfestival.com/": {
     "name": "BFX Festival",
     "url": "https://www.bfxfestival.com/",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
     "changedAt": "2026-06-21T10:05:02.795Z",
     "changed": false,
     "status": "ok",
@@ -35,7 +35,7 @@
   "https://liaf.org.uk/entries": {
     "name": "London International Animation Festival (LIAF)",
     "url": "https://liaf.org.uk/entries",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
     "changedAt": "2026-06-25T09:43:17.584Z",
     "changed": false,
     "status": "ok",
@@ -46,7 +46,7 @@
   "https://www.sheffdocfest.com/": {
     "name": "Sheffield Doc/Fest",
     "url": "https://www.sheffdocfest.com/",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
     "changedAt": null,
     "changed": false,
     "status": "ok",
@@ -57,7 +57,7 @@
   "https://griersontrust.org/grierson-awards/": {
     "name": "Grierson Awards",
     "url": "https://griersontrust.org/grierson-awards/",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
     "changedAt": null,
     "changed": false,
     "status": "ok",
@@ -68,29 +68,29 @@
   "https://animex.tees.ac.uk/": {
     "name": "Animex",
     "url": "https://animex.tees.ac.uk/",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
-    "changedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
+    "changedAt": "2026-07-03T09:34:31.170Z",
     "changed": true,
     "status": "ok",
     "httpStatus": 200,
-    "contentHash": "16cd82e0a6e7b70c5d137b33ae13fb6d2d4f4e2245b283bfcc0abdd844483a99",
+    "contentHash": "b1a13904ee01f1898bf50886d07081ecc15bc5fa89daf0ee9fbc85d6bc804b75",
     "error": null
   },
   "https://www.annecyfestival.com/en/take-part/submit-film": {
     "name": "Annecy (Graduation Films)",
     "url": "https://www.annecyfestival.com/en/take-part/submit-film",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
-    "changedAt": "2026-06-27T08:49:28.940Z",
-    "changed": false,
+    "checkedAt": "2026-07-03T09:34:31.170Z",
+    "changedAt": "2026-07-03T09:34:31.170Z",
+    "changed": true,
     "status": "ok",
     "httpStatus": 200,
-    "contentHash": "e6a9e48d6552839c72736d72955b0e2df307766ad2fcfd22f2ba59b18ec601db",
+    "contentHash": "f416c25c67dc42761653bcefa0e9fe5ac91140284a6022256639100301b37c45",
     "error": null
   },
   "https://www.festival-cannes.com/en/take-part/submit-a-film/la-cinef-rules-and-regulations/": {
     "name": "La Cinef (Cannes)",
     "url": "https://www.festival-cannes.com/en/take-part/submit-a-film/la-cinef-rules-and-regulations/",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
     "changedAt": "2026-06-17T11:17:26.364Z",
     "changed": false,
     "status": "http_error",
@@ -101,7 +101,7 @@
   "https://www.animafest.hr/en": {
     "name": "Animafest Zagreb",
     "url": "https://www.animafest.hr/en",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
     "changedAt": "2026-06-26T09:51:08.534Z",
     "changed": false,
     "status": "ok",
@@ -112,7 +112,7 @@
   "https://clermont-filmfest.org/": {
     "name": "Clermont-Ferrand International Short Film Festival",
     "url": "https://clermont-filmfest.org/",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
     "changedAt": null,
     "changed": false,
     "status": "ok",
@@ -123,18 +123,18 @@
   "https://www.idfa.nl/": {
     "name": "IDFA (International Documentary Film Festival Amsterdam)",
     "url": "https://www.idfa.nl/",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
-    "changedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
+    "changedAt": "2026-07-03T09:34:31.170Z",
     "changed": true,
     "status": "ok",
     "httpStatus": 200,
-    "contentHash": "638b8a8c9240eb70279da5d7ffbc9feb475b97988e2d0914a68ab58b702849da",
+    "contentHash": "82bbe616005737bd43e8d93f04196f0469fa463b8ca0370efe2dd98b081bdd7b",
     "error": null
   },
   "https://www.berlinale.de/en/festival/sections/generation.html": {
     "name": "Berlinale Generation",
     "url": "https://www.berlinale.de/en/festival/sections/generation.html",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
     "changedAt": null,
     "changed": false,
     "status": "ok",
@@ -145,7 +145,7 @@
   "https://www.oscars.org/saa": {
     "name": "Student Academy Awards",
     "url": "https://www.oscars.org/saa",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
     "changedAt": null,
     "changed": false,
     "status": "ok",
@@ -156,7 +156,7 @@
   "https://s2025.siggraph.org/": {
     "name": "ACM SIGGRAPH (SRC)",
     "url": "https://s2025.siggraph.org/",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
     "changedAt": "2026-06-21T10:05:02.795Z",
     "changed": false,
     "status": "ok",
@@ -167,9 +167,9 @@
   "https://asia.siggraph.org/": {
     "name": "SIGGRAPH Asia",
     "url": "https://asia.siggraph.org/",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
     "changedAt": "2026-07-02T09:31:20.386Z",
-    "changed": true,
+    "changed": false,
     "status": "ok",
     "httpStatus": 200,
     "contentHash": "975992b450503c255ea89240807c428a39673ec07c9ccc007d7ae3f51832467d",
@@ -178,7 +178,7 @@
   "https://www.psfilmfest.org/shortfest": {
     "name": "Palm Springs ShortFest",
     "url": "https://www.psfilmfest.org/shortfest",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
     "changedAt": null,
     "changed": false,
     "status": "error",
@@ -189,18 +189,18 @@
   "https://tribecafilm.com/festival": {
     "name": "Tribeca Festival",
     "url": "https://tribecafilm.com/festival",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
-    "changedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
+    "changedAt": "2026-07-03T09:34:31.170Z",
     "changed": true,
     "status": "ok",
     "httpStatus": 200,
-    "contentHash": "548c33f0cea590441fbb67539e2c409e7f18b019252747a77856d2b58b9aa620",
+    "contentHash": "314c0e238eb1a68b53596f5c8b77a87c9ad1bd359cc1982a50a4be35054446a0",
     "error": null
   },
   "https://www.animationfestival.ca/": {
     "name": "Ottawa Int'l Animation Festival",
     "url": "https://www.animationfestival.ca/",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
     "changedAt": "2026-07-01T10:12:46.328Z",
     "changed": false,
     "status": "ok",
@@ -211,7 +211,7 @@
   "https://hotdocs.ca/": {
     "name": "Hot Docs",
     "url": "https://hotdocs.ca/",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
     "changedAt": "2026-07-01T10:12:46.328Z",
     "changed": false,
     "status": "ok",
@@ -222,7 +222,7 @@
   "https://sicaf.org/": {
     "name": "SICAF",
     "url": "https://sicaf.org/",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
     "changedAt": null,
     "changed": false,
     "status": "ok",
@@ -233,7 +233,7 @@
   "https://j-mediaarts.jp/": {
     "name": "文化庁メディア芸術祭",
     "url": "https://j-mediaarts.jp/",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
     "changedAt": null,
     "changed": false,
     "status": "ok",
@@ -244,7 +244,7 @@
   "https://nya-award.jp/": {
     "name": "学生CGコンテスト",
     "url": "https://nya-award.jp/",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
     "changedAt": "2026-07-01T10:12:46.328Z",
     "changed": false,
     "status": "ok",
@@ -255,7 +255,7 @@
   "https://www.tbs.co.jp/digicon/": {
     "name": "DigiCon6 ASIA",
     "url": "https://www.tbs.co.jp/digicon/",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
     "changedAt": null,
     "changed": false,
     "status": "ok",
@@ -266,7 +266,7 @@
   "https://www.shortshorts.org/": {
     "name": "SSFF & ASIA",
     "url": "https://www.shortshorts.org/",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
     "changedAt": "2026-07-01T10:12:46.328Z",
     "changed": false,
     "status": "ok",
@@ -277,7 +277,7 @@
   "https://www.yidff.jp/": {
     "name": "山形国際ドキュメンタリー映画祭",
     "url": "https://www.yidff.jp/",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
     "changedAt": "2026-07-01T10:12:46.328Z",
     "changed": false,
     "status": "ok",
@@ -288,7 +288,7 @@
   "https://kc-i.jp/activity/award/isca/2025/": {
     "name": "ISCA",
     "url": "https://kc-i.jp/activity/award/isca/2025/",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
     "changedAt": null,
     "changed": false,
     "status": "ok",
@@ -299,7 +299,7 @@
   "https://pff.jp/": {
     "name": "ぴあフィルムフェスティバル(PFF)",
     "url": "https://pff.jp/",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
     "changedAt": "2026-06-25T09:43:17.584Z",
     "changed": false,
     "status": "ok",
@@ -310,7 +310,7 @@
   "https://www.therookies.co/rookieawards": {
     "name": "The Rookies (Rookie Awards)",
     "url": "https://www.therookies.co/rookieawards",
-    "checkedAt": "2026-07-02T09:31:20.386Z",
+    "checkedAt": "2026-07-03T09:34:31.170Z",
     "changedAt": "2026-06-22T12:25:46.905Z",
     "changed": false,
     "status": "ok",

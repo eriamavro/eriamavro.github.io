@@ -205,7 +205,7 @@ function createCompetitionCard(competition) {
   category.textContent = getLocalizedField(competition.category) || text.uncategorized;
 
   const title = document.createElement("h3");
-  title.textContent = competition.name || text.unnamed;
+  title.textContent = getLocalizedField(competition.name) || text.unnamed;
 
   const statusRow = createWatchStatusRow(watchStatus);
 
@@ -213,9 +213,9 @@ function createCompetitionCard(competition) {
   metaList.className = "meta-list";
   metaList.append(
     createMetaRow(text.labels.eligibility, formatEligibility(competition)),
-    createMetaRow(text.labels.deadline, formatDetail(competition.deadline, "deadline")),
-    createMetaRow(text.labels.entryFee, formatDetail(competition.entryFee, "entryFee")),
-    createMetaRow(text.labels.difficulty, formatDetail(competition.difficulty, "difficulty"))
+    createMetaRow(text.labels.deadline, formatDetail(competition.deadline)),
+    createMetaRow(text.labels.entryFee, formatDetail(competition.entryFee)),
+    createMetaRow(text.labels.difficulty, formatDetail(competition.difficulty))
   );
 
   const notesBlock = document.createElement("section");
@@ -253,7 +253,8 @@ function createCompetitionCard(competition) {
 }
 
 function getWatchStatus(competition) {
-  return state.watchStatus[competition.link] || state.watchStatus[competition.name] || null;
+  const nameKey = getLocalizedField(competition.name, "en") || getLocalizedField(competition.name);
+  return state.watchStatus[competition.link] || state.watchStatus[nameKey] || null;
 }
 
 function createWatchStatusRow(status) {
@@ -316,58 +317,8 @@ function getLocalizedField(value, lang = isJapanese ? "ja" : "en") {
   return value || "";
 }
 
-function formatDetail(value, type) {
-  const detail = getLocalizedField(value) || value;
-
-  if (isJapanese) {
-    return detail || text.unknown;
-  }
-
-  const maps = {
-    deadline: {
-      "例年 1-3月": "Usually January-March",
-      "例年 1月〜2月": "Usually January-February",
-      "例年 2月〜3月": "Usually February-March",
-      "例年 2月頃": "Usually around February",
-      "例年 3月〜4月": "Usually March-April",
-      "例年 4-5月": "Usually April-May",
-      "例年 4月（奇数年）": "Usually April (odd-numbered years)",
-      "例年 5-6月": "Usually May-June",
-      "例年 6-8月": "Usually June-August",
-      "例年 6月〜7月": "Usually June-July",
-      "例年 6月頃": "Usually around June",
-      "例年 7-8月": "Usually July-August",
-      "例年 7月〜8月": "Usually July-August",
-      "例年 8-9月": "Usually August-September",
-      "例年 8月": "Usually August",
-      "例年 9-10月": "Usually September-October",
-      "例年 9月〜10月": "Usually September-October",
-      "例年 10-11月": "Usually October-November",
-      "例年 10月": "Usually October",
-      "例年 10月〜11月": "Usually October-November",
-      "例年 11-12月": "Usually November-December",
-      "例年 11月〜1月": "Usually November-January",
-      "例年 11月〜12月": "Usually November-December",
-      "例年 12-2月": "Usually December-February",
-      "公式参照": "See official website",
-    },
-    entryFee: {
-      "無料": "Free",
-      "有料": "Paid",
-      "会員費": "Membership fee",
-      "公式参照": "See official website",
-    },
-    difficulty: {
-      "要確認": "Check official website",
-    },
-  };
-
-  const formatted = maps[type]?.[detail] || detail || text.unknown;
-  return containsJapanese(formatted) ? "See official website for details." : formatted;
-}
-
-function containsJapanese(value) {
-  return /[\u3040-\u30ff\u3400-\u9fff]/.test(String(value));
+function formatDetail(value) {
+  return getLocalizedField(value) || text.unknown;
 }
 
 function formatDateTime(value) {

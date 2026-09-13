@@ -87,8 +87,16 @@ async function fetchPage(url) {
   }
 }
 
+function localizedName(competition) {
+  const name = competition.name;
+  if (name && typeof name === "object") {
+    return name.en || name.ja || "";
+  }
+  return name || "";
+}
+
 function statusKey(competition) {
-  return competition.link || competition.name;
+  return competition.link || localizedName(competition);
 }
 
 const competitions = await readJson(DATA_FILE, []);
@@ -101,7 +109,7 @@ for (const competition of competitions) {
 
   if (competition.watchMode === "manual") {
     next[key] = {
-      name: competition.name,
+      name: localizedName(competition),
       url: competition.link || oldStatus.url || null,
       checkedAt,
       changedAt: oldStatus.changedAt || null,
@@ -117,7 +125,7 @@ for (const competition of competitions) {
   if (!competition.link) {
     next[key] = {
       ...oldStatus,
-      name: competition.name,
+      name: localizedName(competition),
       checkedAt,
       status: "skipped",
       error: "No official URL configured.",
@@ -132,7 +140,7 @@ for (const competition of competitions) {
     const changed = Boolean(oldStatus.contentHash && oldStatus.contentHash !== contentHash);
 
     next[key] = {
-      name: competition.name,
+      name: localizedName(competition),
       url: competition.link,
       checkedAt,
       changedAt: changed ? checkedAt : oldStatus.changedAt || null,
@@ -145,7 +153,7 @@ for (const competition of competitions) {
   } catch (error) {
     next[key] = {
       ...oldStatus,
-      name: competition.name,
+      name: localizedName(competition),
       url: competition.link,
       checkedAt,
       changed: false,

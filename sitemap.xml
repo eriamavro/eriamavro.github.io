@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.eriadachi.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eriadachi.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.eriadachi.com/index-jp.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.eriadachi.com/"/>
+  </url>
+  <url>
+    <loc>https://www.eriadachi.com/index-jp.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eriadachi.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.eriadachi.com/index-jp.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.eriadachi.com/"/>
+  </url>
+  <url>
+    <loc>https://www.eriadachi.com/pages/demoreel/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eriadachi.com/pages/demoreel/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.eriadachi.com/pages/demoreel/index-jp.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.eriadachi.com/pages/demoreel/"/>
+  </url>
+  <url>
+    <loc>https://www.eriadachi.com/pages/demoreel/index-jp.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eriadachi.com/pages/demoreel/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.eriadachi.com/pages/demoreel/index-jp.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.eriadachi.com/pages/demoreel/"/>
+  </url>
+  <url>
+    <loc>https://www.eriadachi.com/pages/bafta/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eriadachi.com/pages/bafta/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.eriadachi.com/pages/bafta/index-jp.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.eriadachi.com/pages/bafta/"/>
+  </url>
+  <url>
+    <loc>https://www.eriadachi.com/pages/bafta/index-jp.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eriadachi.com/pages/bafta/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.eriadachi.com/pages/bafta/index-jp.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.eriadachi.com/pages/bafta/"/>
+  </url>
+  <url>
+    <loc>https://www.eriadachi.com/pages/education/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eriadachi.com/pages/education/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.eriadachi.com/pages/education/index-jp.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.eriadachi.com/pages/education/"/>
+  </url>
+  <url>
+    <loc>https://www.eriadachi.com/pages/education/index-jp.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eriadachi.com/pages/education/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.eriadachi.com/pages/education/index-jp.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.eriadachi.com/pages/education/"/>
+  </url>
+  <url>
+    <loc>https://www.eriadachi.com/pages/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eriadachi.com/pages/press/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.eriadachi.com/pages/press/index-jp.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.eriadachi.com/pages/press/"/>
+  </url>
+  <url>
+    <loc>https://www.eriadachi.com/pages/press/index-jp.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eriadachi.com/pages/press/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.eriadachi.com/pages/press/index-jp.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.eriadachi.com/pages/press/"/>
+  </url>
+</urlset>

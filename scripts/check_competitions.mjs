@@ -3,8 +3,8 @@ import { execFile } from "node:child_process";
 import fs from "node:fs/promises";
 import { promisify } from "node:util";
 
-const DATA_FILE = "competition-site/data/competitions.json";
-const STATUS_FILE = "competition-site/data/watch-status.json";
+const DATA_FILE = "competitions/data/competitions.json";
+const STATUS_FILE = "competitions/data/watch-status.json";
 const TIMEOUT_MS = 20000;
 const execFileAsync = promisify(execFile);
 
@@ -44,7 +44,7 @@ async function fetchWithTimeout(url) {
       redirect: "follow",
       headers: {
         "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        "user-agent": "EriAdachiCompetitionWatcher/1.0 (+https://www.eriadachi.com/competition-site/)",
+        "user-agent": "EriAdachiCompetitionWatcher/1.0 (+https://www.eriadachi.com/competitions/)",
       },
     });
   } finally {
@@ -73,7 +73,7 @@ async function fetchPage(url) {
       "--max-time",
       String(Math.ceil(TIMEOUT_MS / 1000)),
       "--user-agent",
-      "EriAdachiCompetitionWatcher/1.0 (+https://www.eriadachi.com/competition-site/)",
+      "EriAdachiCompetitionWatcher/1.0 (+https://www.eriadachi.com/competitions/)",
       url,
     ], {
       maxBuffer: 8 * 1024 * 1024,

@@ -62,27 +62,27 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.eriadachi.com/pages/press/"/>
   </url>
   <url>
-    <loc>https://www.eriadachi.com/competition-site/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.eriadachi.com/competition-site/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://www.eriadachi.com/competition-site/jp/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.eriadachi.com/competition-site/"/>
+    <loc>https://www.eriadachi.com/competitions/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eriadachi.com/competitions/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.eriadachi.com/competitions/jp/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.eriadachi.com/competitions/"/>
   </url>
   <url>
-    <loc>https://www.eriadachi.com/competition-site/jp/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.eriadachi.com/competition-site/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://www.eriadachi.com/competition-site/jp/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.eriadachi.com/competition-site/"/>
+    <loc>https://www.eriadachi.com/competitions/jp/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eriadachi.com/competitions/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.eriadachi.com/competitions/jp/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.eriadachi.com/competitions/"/>
   </url>
   <url>
-    <loc>https://www.eriadachi.com/competition-site/about.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.eriadachi.com/competition-site/about.html"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://www.eriadachi.com/competition-site/jp/about.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.eriadachi.com/competition-site/about.html"/>
+    <loc>https://www.eriadachi.com/competitions/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eriadachi.com/competitions/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.eriadachi.com/competitions/jp/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.eriadachi.com/competitions/about.html"/>
   </url>
   <url>
-    <loc>https://www.eriadachi.com/competition-site/jp/about.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.eriadachi.com/competition-site/about.html"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://www.eriadachi.com/competition-site/jp/about.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.eriadachi.com/competition-site/about.html"/>
+    <loc>https://www.eriadachi.com/competitions/jp/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eriadachi.com/competitions/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.eriadachi.com/competitions/jp/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.eriadachi.com/competitions/about.html"/>
   </url>
 </urlset>

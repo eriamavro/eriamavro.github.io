@@ -7,10 +7,10 @@
 
 import { readFileSync, writeFileSync } from "node:fs";
 
-const DATA_FILE = "competition-site/data/competitions.json";
+const DATA_FILE = "competitions/data/competitions.json";
 const TARGETS = [
-  { file: "competition-site/index.html", lang: "en" },
-  { file: "competition-site/jp/index.html", lang: "ja" },
+  { file: "competitions/index.html", lang: "en" },
+  { file: "competitions/jp/index.html", lang: "ja" },
 ];
 
 const START = "<!-- BUILD:competitions:start -->";

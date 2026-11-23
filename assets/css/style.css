@@ -1127,6 +1127,34 @@ a .press-thumb:hover { opacity: 1; }
 .bafta-membership-intro strong { color: var(--white); font-weight: 400; }
 .bafta-membership-intro p + p { margin-top: 1.4em; }
 
+/* Activities: each item can also contain an optional image or figure. */
+.activities-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.activity-item + .activity-item { margin-top: 1.4em; }
+.activity-item img { display: block; max-width: 100%; height: auto; margin-top: 1em; }
+.activity-photo { width: 240px; max-width: 100%; margin: 16px 0 24px; }
+.activity-photo img { width: 100%; margin-top: 0; }
+.activity-photo figcaption { margin-top: 8px; font-size: 12px; line-height: 1.6; }
+.activity-poster-link {
+  display: block;
+  width: fit-content;
+  margin-top: 6px;
+  color: var(--gold);
+  text-underline-offset: 3px;
+}
+.activity-poster-link:hover { color: var(--white); }
+.activity-poster-link:focus-visible { outline: 1px solid var(--gold); outline-offset: 4px; }
+
+
+@media (max-width: 768px) {
+  .activity-photo { width: 200px; }
+}
+
 /* ===== GRAPHIC DESIGN PAGE ===== */
 .design-intro {
   font-size: 14.5px;
@@ -1355,6 +1383,8 @@ a .press-thumb:hover { opacity: 1; }
 }
 
 @media (max-width: 560px) {
+  .nav-menu          { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px 12px; }
+  .nav-menu a        { display: block; text-align: center; }
   .hero-name         { letter-spacing: 6px; }
   .hero-links        { flex-wrap: wrap; justify-content: center; gap: 24px; }
   .hero-tagline      { letter-spacing: 2px; }
